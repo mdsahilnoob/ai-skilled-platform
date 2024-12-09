@@ -5,18 +5,19 @@ export default function FollowingPointerDemo() {
   return (
     <div className="min-h-screen mt-10 w-80 mx-auto">
         <h2 className='flex flex-cols display-flex flex-center justify-center font-extrabold'>Courses</h2>
+
       <FollowerPointerCard
         title={
           <TitleComponent
-            title={blogContent.author}
-            avatar={blogContent.authorAvatar}
+            title='Student'
+            avatar='https://images.unsplash.com/photo-1647527936203-78851d0706ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           />
         }
       >
-        <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
           <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
             <Image
-              src={blogContent.image}
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
               alt="thumbnail"
               layout="fill"
               objectFit="cover"
@@ -25,33 +26,187 @@ export default function FollowingPointerDemo() {
           </div>
           <div className=" p-4">
             <h2 className="font-bold my-4 text-lg text-zinc-700">
-              {blogContent.title}
+                Amazing Tailwindcss Grid Layout Examples
             </h2>
             <h2 className="font-normal my-4 text-sm text-zinc-500">
-              {blogContent.description}
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
             </h2>
             <div className="flex flex-row justify-between items-center mt-10">
-              <span className="text-sm text-gray-500">{blogContent.date}</span>
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
               <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
                 Read More
               </div>
             </div>
           </div>
         </div>
+
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            <Image
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            />
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+                Amazing Tailwindcss Grid Layout Examples
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+
       </FollowerPointerCard>
+
+      <FollowerPointerCard
+        title={
+          <TitleComponent
+            title='Student'
+            avatar='https://images.unsplash.com/photo-1647527936203-78851d0706ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+          />
+        }
+      >
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            <Image
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            />
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+                Amazing Tailwindcss Grid Layout Examples
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            <Image
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            />
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+                Amazing Tailwindcss Grid Layout Examples
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </FollowerPointerCard>
+
+      <FollowerPointerCard
+        title={
+          <TitleComponent
+            title='Student'
+            avatar='https://images.unsplash.com/photo-1647527936203-78851d0706ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+          />
+        }
+      >
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            <Image
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            />
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+                Amazing Tailwindcss Grid Layout Examples
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-3 relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            <Image
+              src='https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            />
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+                Amazing Tailwindcss Grid Layout Examples
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+                Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">1 Dec 2024</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </FollowerPointerCard>
+
+      
+
     </div>
   );
 }
 
 const blogContent = {
   slug: "amazing-tailwindcss-grid-layouts",
-  author: "Manu Arora",
-  date: "28th March, 2023",
+//   author: "Student",
+//   date: "28th March, 2023",
   title: "Amazing Tailwindcss Grid Layout Examples",
   description:
     "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.",
-  image: "/demo/thumbnail.png",
-  authorAvatar: "/manu.png",
+  image: "https://images.unsplash.com/photo-1593086586351-1673fca190cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  authorAvatar: "https://images.unsplash.com/photo-1647527936203-78851d0706ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const TitleComponent = ({
