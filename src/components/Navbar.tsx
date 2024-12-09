@@ -22,17 +22,17 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <MenuItem setActive={setActive} active={active} item="Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/courses">Patient-Centered Communication</HoveredLink>
+            <HoveredLink href="/courses">Emergency Medicine Basics</HoveredLink>
+            <HoveredLink href="/courses">Telemedicine Mastery</HoveredLink>
+            <HoveredLink href="/courses">Pandemic Preparedness and Response</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Products">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-          <HoveredLink href='/courses'>All Courses</HoveredLink>
+            <HoveredLink href='/courses'>All Courses</HoveredLink>
             <HoveredLink href='/courses'>Basic Music Theory</HoveredLink>
             <HoveredLink href='/courses'>Advanced Composition</HoveredLink>
             <HoveredLink href='/courses'>Songwriting</HoveredLink>

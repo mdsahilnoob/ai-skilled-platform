@@ -4,7 +4,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { LayoutGridDemo } from "@/components/Layout";
 import { BackgroundBeamsDemo } from "@/components/Newsletter";
 import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonials";
-import { GlobeDemo } from "@/components/Githubglobe";
+// import { GlobeDemo } from "@/components/Githubglobe";
 
 
 export default function Home() {
