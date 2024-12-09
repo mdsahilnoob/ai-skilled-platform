@@ -21,3 +21,6 @@ export default function Home() {
     </main>
   )
 }
+
+// SkillMedAI - name of the project
+
