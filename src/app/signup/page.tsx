@@ -2,6 +2,7 @@
 import React from "react";
 import { Label } from "@/components/ui/label";  
 import { Input } from "@/components/ui/input";
+import { Boxes } from "@/components/ui/background-boxes";
 import { cn } from "@/lib/utils";
 import {
   IconBrandGithub,
@@ -94,6 +95,7 @@ export default function SignupFormDemo() {
           </button> */}
         </div>
       </form>
+      {/* <Boxes /> */}
     </div>
   );
 }
