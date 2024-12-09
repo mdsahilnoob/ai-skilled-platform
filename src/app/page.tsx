@@ -1,6 +1,8 @@
 import { NavbarDemo } from "@/components/Navbar";
 import { HeroHighlightDemo } from "@/components/HeroHighlight";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { LayoutGridDemo } from "@/components/Layout";
+import { BackgroundBeamsDemo } from "@/components/Newsletter";
 
 
 export default function Home() {
@@ -9,6 +11,9 @@ export default function Home() {
       <NavbarDemo />
       <HeroHighlightDemo />
       <BackgroundBeams />
+      <LayoutGridDemo />
+      <BackgroundBeamsDemo />
+
     </main>
   )
 }
