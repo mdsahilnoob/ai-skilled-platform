@@ -3,6 +3,7 @@ import { HeroHighlightDemo } from "@/components/HeroHighlight";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { LayoutGridDemo } from "@/components/Layout";
 import { BackgroundBeamsDemo } from "@/components/Newsletter";
+import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonials";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroHighlightDemo />
       <BackgroundBeams />
       <LayoutGridDemo />
+      <AnimatedTestimonialsDemo /> //this is not working
       <BackgroundBeamsDemo />
 
     </main>
