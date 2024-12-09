@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+// import Navbar from "../components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* <div className='relative w-full flex items-center justify-center'>
+          <Navbar className='top-2' />
+          <p className='text-black dark:text-white'>
+            The Navbar will show on top of the page
+          </p>
+        </div> */}
         {children}
       </body>
     </html>
