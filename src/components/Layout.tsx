@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "./ui/layout-grid";
 
 export function LayoutGridDemo() {
@@ -18,7 +17,7 @@ const SkeletonOne = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        "Your prescription for tailored skill enhancement."
+        Your prescription for tailored skill enhancement.
       </p>
     </div>
   );
@@ -32,7 +31,7 @@ const SkeletonTwo = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        "Specialized care starts with specialized skills."
+        Specialized care starts with specialized skills.
       </p>
     </div>
   );
@@ -45,7 +44,7 @@ const SkeletonThree = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        "Learn, achieve, and level up your expertise."
+        Learn, achieve, and level up your expertise.
       </p>
     </div>
   );
@@ -58,7 +57,7 @@ const SkeletonFour = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        "Practice precision in life-saving scenarios."
+        Practice precision in life-saving scenarios.
       </p>
     </div>
   );

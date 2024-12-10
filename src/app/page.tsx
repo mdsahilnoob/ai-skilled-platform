@@ -4,7 +4,6 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { LayoutGridDemo } from "@/components/Layout";
 import { BackgroundBeamsDemo } from "@/components/Newsletter";
 import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonials";
-// import { GlobeDemo } from "@/components/Githubglobe";
 
 
 export default function Home() {
@@ -13,9 +12,8 @@ export default function Home() {
       <NavbarDemo />
       <HeroHighlightDemo />
       <BackgroundBeams />
-      {/* <GlobeDemo /> */}
       <LayoutGridDemo />
-      <AnimatedTestimonialsDemo /> //this is not working
+      <AnimatedTestimonialsDemo />
       <BackgroundBeamsDemo />
 
     </main>
