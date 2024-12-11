@@ -5,7 +5,7 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 export function HeroHighlightDemo() {
   return (
     <HeroHighlight containerClassName="h-[40rem] flex items-center justify-center bg-white dark:bg-black">
-      <motion.h1
+      <motion.div
         initial={{
           opacity: 0,
           y: 20,
@@ -24,7 +24,7 @@ export function HeroHighlightDemo() {
         <Highlight className="text-black dark:text-white">
           tomorrow’s medical challenges today.
         </Highlight>
-      </motion.h1>
+      </motion.div>
     </HeroHighlight>
   );
 }

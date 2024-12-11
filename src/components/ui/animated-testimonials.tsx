@@ -56,13 +56,13 @@ export const AnimatedTestimonials = ({
                     opacity: 0,
                     scale: 0.9,
                     z: -100,
-                    rotate: randomRotateY(),
+                    rotate: 0,
                   }}
                   animate={{
                     opacity: isActive(index) ? 1 : 0.7,
                     scale: isActive(index) ? 1 : 0.95,
                     z: isActive(index) ? 0 : -100,
-                    rotate: isActive(index) ? 0 : randomRotateY(),
+                    rotate: isActive(index) ? 0 : 0,
                     zIndex: isActive(index)
                       ? 999
                       : testimonials.length + 2 - index,
@@ -72,10 +72,10 @@ export const AnimatedTestimonials = ({
                     opacity: 0,
                     scale: 0.9,
                     z: 100,
-                    rotate: randomRotateY(),
+                    rotate: 0,
                   }}
                   transition={{
-                    duration: 0.4,
+                    duration: 0.5,
                     ease: "easeInOut",
                   }}
                   className="absolute inset-0 origin-bottom"
